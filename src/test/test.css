@@ -1,0 +1,50 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #41397e !important;
+  background-image: url("https://www.varchev.com/wp-content/uploads/2021/04/photo-1486406146926-c627a92ad1ab.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.father {
+  border: 2px solid #14192e;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 14px;
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.input {
+  width: 100%;
+  padding: 7px 10px;
+  margin-bottom: 20px;
+}
+.category {
+  width: 100%;
+  padding: 7px 10px;
+  margin-bottom: 20px;
+}
+.list-group {
+  width: 100% !important;
+}
+.elspan {
+  width: 25%;
+}
+#form {
+  width: 48%;
+}
+.info {
+  width: 48%;
+}
+.btn-group {
+  display: flex !important;
+  justify-content: space-between !important;
+}

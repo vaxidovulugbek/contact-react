@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+// import Form from "./test/test";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Form from './test/test';
+import './test/test.css'
 
 function App() {
+
+  // const title = React.createElement('h1', {}, 'ming martda shu kodni yozdim');
+  // const container = React.createElement('div', {}, title);
+  
+  // ReactDOM.render(
+  //   container,
+  //   document.getElementById('haggi')
+  // );
+
+
+
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <h1 id="haggi">okey</h1>
+      <Form/>
+
+
     </div>
   );
 }
 
 export default App;
+
